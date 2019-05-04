@@ -7,9 +7,9 @@ h1{
   text-align:center;
   color:blue;
   font-family:'DancingScriptRegular';
-    font-size:400%;  
-  
-} 
+    font-size:400%;
+
+}
 h2 {
 }
 p {
@@ -27,8 +27,8 @@ i{
 a, a:hover, a:visited {
   color: #665544;
 }
-p { 
-    font-family: 'DancingScriptRegular'; 
-    font-weight: normal; 
-    font-style: normal; 
+p {
+    font-family: 'DancingScriptRegular';
+    font-weight: normal;
+    font-style: normal;
 }
