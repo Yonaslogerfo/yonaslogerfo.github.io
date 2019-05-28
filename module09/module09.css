@@ -1,11 +1,11 @@
 
 body {
     height: 200px;
-    background: beige;
+    background: #10339F;
   }
   .dot {
     height: 8px; width: 8px;
     border-radius: 4px; /* rounds corners */
-    background: blue;
+    background: #9F1F10;
     position: absolute;
   }
