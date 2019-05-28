@@ -6,6 +6,6 @@ body {
   .dot {
     height: 8px; width: 8px;
     border-radius: 4px; /* rounds corners */
-    background: #9F1F10;
+    background: ##379F10;
     position: absolute;
   }
