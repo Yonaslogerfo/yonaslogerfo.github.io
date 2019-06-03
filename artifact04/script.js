@@ -18,7 +18,7 @@ function validateForm()
   }
   if (document.getElementById('Phone').value == "" ){
     txt +=",your phone number is missing";
-     var txt="phone not found";
+     var txt="phone number not found";
   }
   alert(txt);
 }
