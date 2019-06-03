@@ -6,15 +6,19 @@ function validateForm()
 
   if (document.getElementById('FirstName').value == "" ){
     txt +=",your first name is missing";
+    var txt="firstname not found";
   }
   if (document.getElementById('LastName').value == "" ){
-    txt +=",your last name is missing";
+    txt +=",your lastname is missing";
+    var txt="lasttname not found";
   }
   if (document.getElementById('EMail').value == "" ){
     txt +=",your email is missing";
+    var txt="email not found";
   }
   if (document.getElementById('Phone').value == "" ){
     txt +=",your phone number is missing";
+     var txt="phone not found";
   }
   alert(txt);
 }
