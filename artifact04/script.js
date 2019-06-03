@@ -1,44 +1,93 @@
+var errorMessages = "";
 
-function validateForm()
-//  function show_error()
-{
-  var txt="Thanks for submitting";
+function validateEmail() {
+  var x = document.getElementById("email").value;
+  var atpos = x.indexOf("@");
+  var dotpos = x.lastIndexOf(".");
+  if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= x.length) {
+    errorMessage += "<p>Not a valid e-mail address</p>";
+    return false;
+  } else
+    return true;
+}
 
-  if (document.getElementById('FirstName').value == "" ){
-    txt +=",your first name is missing";
-    var txt="firstname not found";
-    //1) Create variable
-var validFirstname=false;
-//2) read value from HTML
-var firstname = document.getElementById("firstname").value;
-//3) Do validation
-if (firstname==="null" || firstname==="" || firstname.length > 20)
-    errorMessages += "<p>The firstname is required and cannot be greater than 20 characters</p>";
-else
-   validFirstname = true;
-//4) Send error message to HTML
-document.getElementById("errorMessages").innerHTML = errorMessages;
+function validateForm() {
+  console.log("beginning form");
+  var validFirstname = false;
+  var validLastname = false;
+  var validEmail = false;
+  var validUsername = false;
+  var validPassword = false;
+  var validAddress = false;
+  var validCity = false;
+  var validCountry = false;
+  var validZipcode = false;
 
-//5) return status of each field
-return (validFirstname);
-  }
- 
-//  function show_error()
-  if (document.getElementById('LastName').value == "" ){
-    txt +=",your lastname is missing";
-    var txt="lasttname not found";
-  }
-  
-//  function show_error()
-  if (document.getElementById('EMail').value == "" ){
-    txt +=",your email is missing";
-    var txt="email not found";
-  }
-  
-//  function show_error()
-  if (document.getElementById('Phone').value == "" ){
-    txt +=",your phone number is missing";
-     var txt="phone number not found";
-  }
-  alert(txt);
+  if (document.getElementById("firstname").value.length > 0 &&
+    document.getElementById("firstname").value.length <= 20)
+    validFirstname = true;
+  else
+    errorMessages += "<p> The firstname must be less than or equal to 20 charaters";
+
+  if (document.getElementById("lastname").value.length > 0 &&
+    document.getElementById("lastname").value.length <= 50)
+    validLastname = true;
+  else
+    errorMessages += "<p> The lastname must be less than or equal to 50 characters";
+
+  if (validateEmail())
+    validEmail = true;
+
+  if (myContact.phone.value == null ||
+    myContact.phone.value === "" ||
+    myContact.phone.value.length > 15 ||
+    !myContact.phone.value.match(numbers))
+    errorMessages += "<p>The phone number must be less or qual to 15 characters.  Only numbers are accepted.</p>";
+  else
+    validPhone = true;
+
+  if (document.getElementById("username").value.length > 0 &&
+    document.getElementById("username").value.length <= 12)
+    validUsername = true;
+  else
+    errorMessages += "<p> The Username must be less than or equal to 12 characters";
+
+
+  if (document.getElementById("password").value.length > 0 &&
+    document.getElementById("password").value.length <= 12)
+    validPassword = true;
+  else
+    errorMessages += "<p> The Password must be less than or equal to 7 characters";
+
+
+  if (myContact.address.value == null ||
+    myContact.address.value === "")
+    errorMessages += "<p> An Address is required</p>";
+  else
+    validAddress = true;
+
+
+  if (myContact.city.value == null ||
+    myContact.city.value === "")
+    errorMessages += "<p> A City is required</p>";
+  else
+    validCity = true;
+
+
+  if (myContact.countries.value == null ||
+    myContact.countries.value === "")
+    errorMessages += "<p> A Country is required</p>";
+  else
+    validCountry = true;
+
+  if (myContact.countries.value == 3)
+    if (myContact.zipcode.value.length === 5)
+      validZipcode = true
+    else
+      errorMessages += "<p>A Zip Code is required if the chosen country is USA.</p>";
+
+
+  console.log("errorMessage");
+  document.getElementById("errorMessage").innerHTML = errorMessages;
+  return validFirstname && validLastname && validEmail && validUsername && validPassword && validAddress && validCity && validZipcode;
 }
