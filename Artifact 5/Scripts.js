@@ -4,7 +4,7 @@ var myImages = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-JQ2r9bX
                " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnE48hQJjJjLh3bblezF7013m954KJm_NeZ87cj1QTu577HUYC",
                " https://images.theconversation.com/files/217599/original/file-20180503-153895-mwmz4a.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip"]; 
 var captionImages = 
-["lion","zebra", "bear", "hiposs","birds"]; 
+["lion","zebra", "bear", "hipopotamus","birds"]; 
 
  var index=0; 
  function updateImage(){ 
