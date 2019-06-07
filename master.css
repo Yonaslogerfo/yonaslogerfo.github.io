@@ -6,7 +6,7 @@ body {
   margin-left:10%;
   margin-right:10%;
 }
-#clear {
+.clear {
   clear:both;
 }
 
@@ -30,6 +30,8 @@ body {
  border:solid 1px;
  padding: 10px;
  margin:10px;
+ background-color: lightyellow;
+ text-align: center;
 }
 #container {
  margin-top:20%;
