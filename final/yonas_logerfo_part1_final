@@ -1,1 +1,29 @@
 
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+ <meta charset="utf-8">
+ <title>final</title>
+ </head>
+ <body>
+<h1> Final project Questions & Answers </h1>
+<ol>
+ <li>What was your previous knowledge of HTML/CSS/Javascript?</li>
+ <li>Did you use a template or did you build your portfolio from scratch?</li>
+ <li>What was your most challenging part of your portfolio (ie, the template, artifacts, CSS, etc.)</li>
+ <li>How taking this class changed your view on Web Development?</li>
+ <li>What would you recommend to future students taking this class?</li>
+</ol>
+ 
+<ul><li>I didn't have any background about HTML/CSS/Javascript before.</li>
+ <li>I used a Template for my portfolio </li>
+ <li>The most challenging part from my portfolio was to validate Contact Us Form.</li>
+ <li>Even though its hard and take alot of time to work on one project I really enjoying working on it, and the results makes me happy all the time but web development needs a lot of patient to work on it an focus each code that you ar working on it.</li>
+ <li> I would like to recommend to future students taking this class to practice more outside the class and research about the program.</li>
+</ul>
+ 
+ </body>
+</html>
