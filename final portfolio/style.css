@@ -1,0 +1,156 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #e5e5e5;
+color: #000000;
+font-size: 16px;
+line-height: 30px;
+background-image: url(https://cdn.shopify.com/s/files/1/0301/0065/files/fall_background_image_landscape_tree_lake_mountain_scene_web_2048x2048.jpg?16615717205281063826);
+/* background-image: url(http://www.afro105fm.com/afrofm.com/wp-content/uploads/2019/01/Addis-Ababa-Lion-of-Judah.jpg); */
+}
+
+
+a { color: #000088; }
+a:hover { color: #880000; }
+
+#wrap {
+margin: 20px auto;
+width: 1000px;
+background: #B40431;
+
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+#header {
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+background: #f9f9f9;
+padding: 20px 0 40px 0;
+}
+#header h1 {
+margin: 0;
+padding: 0 0 0 30px;
+font-weight: bold;
+color: #3f3f3f;
+font-size: 38px;
+line-height: 65px;
+letter-spacing: -5px;
+}
+#header h2 {
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 10px;
+margin: 0 0 0 20px;
+padding: 5px 12px;
+font-weight: normal;
+color: #171717;
+font-size: 28px;
+letter-spacing: -1px;
+background: #FFEE9F;
+border: 1px solid #FFE25F;
+display: inline;
+}
+
+#topmenu {
+background: #f1f1f1;
+padding: 10px 20px;
+border-bottom: 1px solid #e1e1e1;
+border-top: 1px solid #e1e1e1;
+}
+#topmenu ul { margin: 0; padding: 0; list-style-type: none;}
+#topmenu li { display: inline; padding: 0 20px 0 0 }
+#topmenu li a { text-decoration: none;
+}
+
+.search { float: right; margin-top: -15px;}
+
+#menu {
+font-size: 14px;
+float: right;
+width: 300px;
+color: #fff;
+margin: 30px 20px 20px 0;
+}
+#menu h3 {
+font-weight: normal; background: #5f5f5f; color: #fff; padding: 10px; margin: 10px 0;
+}
+#menu ul {
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+
+list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
+}
+#menu ul li a { color: #12c; text-decoration: none; border-bottom: 1px dotted #12c; }
+#menu ul li a:hover { color: #c12; border-bottom: 1px dotted #c12; }
+
+#content { float: left; width: 580px; margin: 10px 0 40px 20px;}
+#content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
+#content h3 { font-size: 17px; font-weight: normal; }
+
+.cleft { float: left; width: 280px; margin: 10px 0; }
+.cright { float: right; width: 280px; margin: 10px 0; }
+
+#footer {
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+
+background: #3f3f3f;
+color: #fff;
+padding: 20px;
+border-top: 1px solid #1f1f1f;
+}
+#footer a { color: #fff; text-decoration: none; border-bottom: 1px dotted #fff; }
+#footer a:hover { border-bottom: 1px dotted #ccc; }
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+#yonaslogerfo {
+  width: 400px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 10px;
+  border: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* .container {
+  border-radius: 5px;
+  background-color: #148800; */
