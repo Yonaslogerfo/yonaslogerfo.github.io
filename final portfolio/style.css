@@ -3,21 +3,19 @@ font-family: Arial, sans-serif;
 margin: 0;
 padding: 0;
 background: #e5e5e5;
-color: #000000;
+color: #3f3f3f;
 font-size: 16px;
-line-height: 30px;
+line-height: 24px;
 background-image: url(https://cdn.shopify.com/s/files/1/0301/0065/files/fall_background_image_landscape_tree_lake_mountain_scene_web_2048x2048.jpg?16615717205281063826);
-/* background-image: url(http://www.afro105fm.com/afrofm.com/wp-content/uploads/2019/01/Addis-Ababa-Lion-of-Judah.jpg); */
 }
-
 
 a { color: #000088; }
 a:hover { color: #880000; }
 
 #wrap {
-margin: 20px auto;
-width: 1000px;
-background: #B40431;
+margin: 40px auto;
+width: 940px;
+background: 	#00ffff;
 
 box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -45,17 +43,17 @@ font-weight: bold;
 color: #3f3f3f;
 font-size: 38px;
 line-height: 65px;
-letter-spacing: -5px;
+letter-spacing: -1px;
 }
 #header h2 {
--webkit-border-radius: 20px;
--moz-border-radius: 20px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
 border-radius: 10px;
 margin: 0 0 0 20px;
 padding: 5px 12px;
 font-weight: normal;
 color: #171717;
-font-size: 28px;
+font-size: 22px;
 letter-spacing: -1px;
 background: #FFEE9F;
 border: 1px solid #FFE25F;
@@ -73,7 +71,7 @@ border-top: 1px solid #e1e1e1;
 #topmenu li a { text-decoration: none;
 }
 
-.search { float: right; margin-top: -15px;}
+.search { float: right;  margin: auto;}
 
 #menu {
 font-size: 14px;
@@ -121,12 +119,8 @@ border-top: 1px solid #1f1f1f;
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
-
-#yonaslogerfo {
-  width: 400px;
-}
 input[type=text], select, textarea {
-  width: 100%;
+  width: 80%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -150,7 +144,3 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
-/* .container {
-  border-radius: 5px;
-  background-color: #148800; */
