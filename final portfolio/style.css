@@ -119,28 +119,3 @@ border-top: 1px solid #1f1f1f;
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
-input[type=text], select, textarea {
-  width: 80%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 10px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 10px;
-  border: 10px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
