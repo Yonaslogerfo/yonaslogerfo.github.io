@@ -6,16 +6,16 @@ var currentDate = new Date(),
  var currentTime = new Date(),
  hours = currentTime.getHours(),
  minutes = currentTime.getMinutes();
- 
+
  if (minutes < 10) {
  minutes = "0" + minutes;
  }
- 
+
  //document.write(hours + ":" + minutes)
- 
- 
- 
-var showdate = document.getElementById("demo").innerHTML;
+
+
+
+// var showdate = document.getElementById("demo").innerHTML;
 //showdate.style.color= "red";
 //showdate.textContent= day + "/" + month + "/" + year;
- document.getElementById("demo").innerHTML= day + "/" + month + "/" + year + " " + hours + ":" + minutes;
+ document.getElementById("time").innerHTML= day + "/" + month + "/" + year + " " + hours + ":" + minutes;
