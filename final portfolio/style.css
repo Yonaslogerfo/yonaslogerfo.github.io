@@ -126,5 +126,9 @@ border-top: 1px solid #1f1f1f;
   padding: 20px;
 }
 #form {
+
   text-align: center;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
