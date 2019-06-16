@@ -1,4 +1,4 @@
-var errorMessages = "";
+var errorMessages = "Oops!";
 
 function validateEmail() {
   var x = document.getElementById("email").value;
@@ -23,26 +23,26 @@ function validateForm() {
   var validCountry = false;
   var validZipcode = false;
 
-  if (document.getElementById("firstname").value.length > 0 &&
-    document.getElementById("firstname").value.length <= 20)
+  if (document.getElementById("firstname").value.length == null &&
+    document.getElementById("firstname").value.length === "")
     validFirstname = true;
   else
-    errorMessages += "<p>Invalid firstname";
+    errorMessages += "<p> Invalid firstname";
 
-  if (document.getElementById("lastname").value.length > 0 &&
-    document.getElementById("lastname").value.length <= 50)
+  if (document.getElementById("lastname").value.length == null &&
+    document.getElementById("lastname").value.length === "")
     validLastname = true;
   else
-    errorMessages += "<p> Invalid lastname ";
+    errorMessages += "<p>Invalid lastname";
 
   if (validateEmail())
     validEmail = true;
 
   if (myContact.phone.value == null ||
     myContact.phone.value === "" ||
-    myContact.phone.value.length > 10 ||
+    myContact.phone.value.length > 15 ||
     !myContact.phone.value.match(numbers))
-    errorMessages += "<p>The phone number must be less or qual to 10 characters.  Only numbers are accepted.</p>";
+    errorMessages += "<p>The phone number must be less or qual to 15 characters.  Only numbers are accepted.</p>";
   else
     validPhone = true;
 
