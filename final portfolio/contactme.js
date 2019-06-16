@@ -1,4 +1,4 @@
-var errorMessages = "Not Valid";
+var errorMessages = "";
 
 function validateEmail() {
   var x = document.getElementById("email").value;
