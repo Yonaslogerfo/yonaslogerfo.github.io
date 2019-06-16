@@ -132,3 +132,6 @@ border-top: 1px solid #1f1f1f;
   display: inline-block;
   vertical-align: middle;
 }
+#errorMessage {
+  color:red;
+}
