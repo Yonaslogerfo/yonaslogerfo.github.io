@@ -20,13 +20,11 @@
 
     </div>
 
+    <div id="topmenu">
+    <div class="search">
+    <input type="text" style= width:200px />
+    <input type="submit" value="Search" />
     </div>
-
-      <div id="topmenu">
-        <div class="search">
-          <input type="text" style="width:220px" />
-          <input type="submit" value="Search" />
-        </div>
         <ul>
            <li><a href="index.html">Home</a></li>
            <li><a href="aboutme.html">About </a></li>
@@ -34,81 +32,84 @@
            <li><a href="artifacts.html">Artifacts</a></li>
            <li><a href="moduleassignments.html">Modules</a></li>
            <li><a href="Creativepage.html">Creatve</a></li>
-           <li><a href="contactme.html">Contact</a></li>  
+           <li><a href="contactme.html">Contact</a></li>
                  </ul>
     </div>
-    </div>
+    
 
-    <div id="form">
-        <div id="contactme">
+    <div id="contactme"></div>
+        <!-- <div id="contact"> -->
+
+
 
           <h1>CONTACT US</h1>
-  <div id="contactme"></div>
-    <!--Add Thank you page -->
+  <!-- <div id="contactme"></div> -->
+    <!-- Add Thank you page -->
     <div>
-          <form name="myContact" action="thankyoupage.html" target="_blank "method="get" onsubmit="return validateForm();">
-            <fieldset>
-              <legend>User Information</legend>
-              <label for="firstname">Enter Firstname (Max 20 characters) </label>
-              <br>
-              <input type="text" id="firstname">
-              <br>
-              <label for="lastname">Enter Lastname (Max 50 characters) </label>
-              <br>
-              <input type="text" id="lastname">
-              <br>
-              <label for="email">Enter Email</label>
-              <br>
-              <input type="text" id="email">
-              <br>
-              <label for="phone">Enter Phone Number (Max 15 Characters) </label>
-              <br>
-              <input type="text" id="phone">
-              <br>
-              <label for="username">Enter Username (Max 12 Characters)</label>
-              <br>
-              <input type="text" maxlength="12" id="username">
-              <br>
-              <label for="password">Enter Password (Max 7 Characters)</label>
-              <br>
-              <input type="password" maxlength="7" id="password">
+          <form name="myContact" action="thankyou.html" method="get" onsubmit="return validateForm();">
+      <fieldset>
+        <legend>User Information</legend>
+        <label for="firstname">Enter Firstname (Max 20 characters) </label>
+        <br>
+        <input type="text" id="firstname">
+        <br>
+        <label for="lastname">Enter Lastname (Max 50 characters) </label>
+        <br>
+        <input type="text" id="lastname">
+        <br>
+        <label for="email">Enter Email</label>
+        <br>
+        <input type="text" id="email">
+        <br>
+        <label for="phone">Enter Phone Number (Max 15 Characters) </label>
+        <br>
+        <input type="text" id="phone">
+        <br>
+        <label for="username">Enter Username (Max 12 Characters)</label>
+        <br>
+        <input type="text" maxlength="12" id="username">
+        <br>
+        <label for="password">Enter Password (Max 7 Characters)</label>
+        <br>
+        <input type="password" maxlength="7" id="password">
 
-            </fieldset>
-            <fieldset>
-              <legend>Current Address</legend>
-              <label for="address">Enter Address</label>
-              <br>
-              <input type="text" name="address" id="address" size="50">
-              <br>
-              <label for="city">Enter City</label>
-              <br>
-              <input type="text" name="city" id="city">
-              <br>
-              <label for="countries">Choose Country</label>
-              <br>
-              <select id="countries">
-                <option value="1">Albania</option>
-                <option value="2">Algeria</option>
-                <option value="3">American</option>
-                <option value="4">Andorra</option>
-              </select>
-              <br>
-              <label for="zipcode">Enter zipcode</label>
-              <br>
-              <input type="text" name="zip" id="zipcode">
-            </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Current Address</legend>
+        <label for="address">Enter Address</label>
+        <br>
+        <input type="text" name="address" id="address" size="50">
+        <br>
+        <label for="city">Enter City</label>
+        <br>
+        <input type="text" name="city" id="city">
+        <br>
+        <label for="countries">Choose Country</label>
+        <br>
+        <select id="countries">
+          <option value="1">Albania</option>
+          <option value="2">Algeria</option>
+          <option value="3">American</option>
+          <option value="4">Andorra</option>
+        </select>
+        <br>
+        <label for="zipcode">Enter zipcode</label>
+        <br>
+        <input type="text" name="zip" id="zipcode">
+      </fieldset>
 
-            <fieldset>
-              <legend>Feel free to add comments</legend>
-              <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
-            </fieldset>
+      <fieldset>
+        <legend>Feel free to add comments</legend>
+        <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
+      </fieldset>
 
-            <br>
-            <input id="submit" type="submit" value="Submit">
-            <input id="cancel" type="submit" value="Cancel">
-            <script type="text/javascript" src="contactme.js"></script>
-          </form>
-      </div>
+      <br>
+      <input id="submit" type="submit" value="Submit">
+      <input id="cancel" type="submit" value="Cancel">
+      <script type="text/javascript" src="contactme.js"></script>
+    </form>
+
+  </div>
 
       <div id="footer">
 <div id="time"> </div>
@@ -142,8 +143,8 @@
     </div>
 
 <!-- </div> -->
-</div>
-</div>
+<!-- </div> -->
+<!-- </div> -->
 </div>
 </body>
 </html>
