@@ -87,7 +87,7 @@ function validateForm() {
       errorMessages += "<p>A Zip Code is required if the chosen country is USA.</p>";
 
 
-  console.log("thankyou");
-  document.getElementById("contactme").innerHTML = errorMessages;
+  console.log("errorMessage");
+  document.getElementById("errorMessage").innerHTML = errorMessages;
   return validFirstname && validLastname && validEmail && validUsername && validPassword && validAddress && validCity && validZipcode;
 }
